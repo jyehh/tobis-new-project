@@ -1,5 +1,6 @@
 package com.example.tobis;
 
+import org.springframework.stereotype.Component;
 import tools.jackson.databind.ObjectMapper;
 
 import java.io.BufferedReader;
@@ -9,6 +10,7 @@ import java.math.BigDecimal;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.stream.Collectors;
+
 
 public class WebApiExRateProvider implements ExRateProvider{
 
